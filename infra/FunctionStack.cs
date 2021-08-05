@@ -8,7 +8,8 @@ using Pulumi.AzureNative.Web.Inputs;
 
 class FunctionStack : Stack
 {
-    [Output] public Output<string> Endpoint { get; set; }
+    [Output] 
+    public Output<string> Endpoint { get; set; }
 
     public FunctionStack()
     {
